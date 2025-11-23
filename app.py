@@ -71,7 +71,8 @@ def run_orchestrator(max_loops=5, threshold=0.9):
         print(f"\n[Orchestrator] Loop {loop_count} starting...")
 
         # 1) Generate 7-day plan
-        plan = planner.generate_plan(USER_PROFILE, context)
+        plan, trace_planner = planner.generate_plan(USER_PROFILE, context)
+
 
         # 2) Read and normalize pantry
         inventory = pantry_agent.read_inventory()
