@@ -1,32 +1,41 @@
 USER_PROFILE = {
-    "diet": "vegetarian",
-    "forbidden": ["pork", "tuna"],
-    "servings": 2
+    "user_id": "test_user_01",
+    "servings": 2,
+    "dietary_constraints": ["vegetarian"],
+    "allergies": [],
+    "forbidden": [],
+    "budget": 100,
+    "goals": {
+        "meal_variety": True,
+        "prefer_quick_meals": True
+    },
+    "preferred_cuisines": ["Indian"],
+    "cooking_skill": "beginner"
 }
 
 PANTRY_SAMPLE = {
     "items": [
-        {"name": "rice", "qty": 50, "unit": "g"},      # small quantity → triggers missing items
-        {"name": "milk", "qty": 50, "unit": "ml"},
-        {"name": "onion", "qty": 0, "unit": "pcs"}     # empty → missing
+        {"name": "rice", "qty": 100, "unit": "g"},
+        {"name": "onion", "qty": 1, "unit": "pcs"}
     ]
 }
 
 RECIPES_SAMPLE = [
     {
-        "name": "Paneer Butter Masala",
+        "recipe_id": "t1",
+        "title": "Test Rice Dish",
         "ingredients": [
-            {"ingredient": "paneer", "qty": 200, "unit": "g"},
-            {"ingredient": "milk", "qty": 100, "unit": "ml"},
-            {"ingredient": "onion", "qty": 1, "unit": "pcs"}
-        ]
+            {"name": "rice", "qty": 200, "unit": "g"},
+            {"name": "onion", "qty": 1, "unit": "pcs"}
+        ],
+        "category": "vegetarian"
     },
     {
-        "name": "Veg Fried Rice",
+        "recipe_id": "t2",
+        "title": "Test Spinach Dish",
         "ingredients": [
-            {"ingredient": "rice", "qty": 200, "unit": "g"},
-            {"ingredient": "carrot", "qty": 1, "unit": "pcs"},
-            {"ingredient": "beans", "qty": 50, "unit": "g"}
-        ]
+            {"name": "spinach", "qty": 100, "unit": "g"}
+        ],
+        "category": "vegetarian"
     }
 ]
