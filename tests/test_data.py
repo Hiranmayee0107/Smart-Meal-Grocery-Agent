@@ -1,5 +1,3 @@
-# tests/test_data.py
-
 USER_PROFILE = {
     "diet": "vegetarian",
     "forbidden": ["pork", "tuna"],
