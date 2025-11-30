@@ -146,6 +146,18 @@ These files are stored inside the /output folder.
 # Orchestrator Loop
 Ensures multi-agent, sequential, loop-based architecture
 
+# Test Suite 
+
+This project includes a tests/ folder used to validate:
+
+Meal planner behaviour
+
+Pantry normalization
+
+Shopping list generation
+
+Evaluator scoring
+
 # Project Structure
 /project-root
     app.py
@@ -158,7 +170,16 @@ Ensures multi-agent, sequential, loop-based architecture
     utils/
         conversions.py
         normalizer.py
+    assets/
+        Architecture.png
     output/
+        meal_plan.json
+        shopping_list.xls
+        test_data_output.png
+      traces.json
+    tests/
+        test_data.py
+        test_runner.py
     README.md
 
 # How to Run
@@ -169,6 +190,9 @@ python app.py
 2. Outputs will appear in /output/:
 * meal_plan.json
 * shopping_list.csv
+
+python tests/test_runner.py
+
 
 # Orchestrator Workflow
 1. Generate 7-day meal plan (Meal Planner Agent)
