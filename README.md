@@ -65,6 +65,7 @@ https://github.com/Hiranmayee0107/Smart-Meal-Grocery-Agent/blob/main/Acceptance_
 * Decides if loop continues
 
 ## Architecture Diagram 
+https://github.com/Hiranmayee0107/Smart-Meal-Grocery-Agent/blob/main/assets/Agent.png
 
 # 1. Orchestrator(app.py)
 # Role: Central Controller
