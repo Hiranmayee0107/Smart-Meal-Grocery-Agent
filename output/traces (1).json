@@ -1,0 +1,23 @@
+[
+  {
+    "loop": 1,
+    "planner_trace": {
+      "agent": "MealPlanner",
+      "generated_days": 7
+    },
+    "pantry_trace": {
+      "agent": "PantryChecker",
+      "items": 18
+    },
+    "aggregated_count": 6,
+    "missing_count": 0,
+    "shopping_count": 0,
+    "eval": {
+      "score": 1.0,
+      "completeness": 1.0,
+      "forbidden_found": 0,
+      "feedback": []
+    },
+    "runtime": 0.0068988800048828125
+  }
+]

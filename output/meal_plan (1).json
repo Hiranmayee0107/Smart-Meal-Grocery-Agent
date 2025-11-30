@@ -1,0 +1,177 @@
+{
+  "user_id": "demo_user_01",
+  "week_start": "2025-12-01",
+  "plan": [
+    {
+      "day": "Mon",
+      "meals": [
+        {
+          "type": "dinner",
+          "recipe_id": "v1",
+          "title": "Vegetable Stir Fry",
+          "servings": 2,
+          "ingredients": [
+            {
+              "name": "onion",
+              "qty": 1,
+              "unit": "pcs"
+            },
+            {
+              "name": "spinach",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "rice",
+              "qty": 150,
+              "unit": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tue",
+      "meals": [
+        {
+          "type": "dinner",
+          "recipe_id": "v2",
+          "title": "Simple Omelette",
+          "servings": 2,
+          "ingredients": [
+            {
+              "name": "eggs",
+              "qty": 2,
+              "unit": "pcs"
+            },
+            {
+              "name": "milk",
+              "qty": 30,
+              "unit": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wed",
+      "meals": [
+        {
+          "type": "dinner",
+          "recipe_id": "v3",
+          "title": "Spinach Rice Bowl",
+          "servings": 2,
+          "ingredients": [
+            {
+              "name": "rice",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "spinach",
+              "qty": 100,
+              "unit": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thu",
+      "meals": [
+        {
+          "type": "dinner",
+          "recipe_id": "v4",
+          "title": "Onion Soup",
+          "servings": 2,
+          "ingredients": [
+            {
+              "name": "onion",
+              "qty": 2,
+              "unit": "pcs"
+            },
+            {
+              "name": "milk",
+              "qty": 100,
+              "unit": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Fri",
+      "meals": [
+        {
+          "type": "dinner",
+          "recipe_id": "v5",
+          "title": "Vegetable Fried Rice",
+          "servings": 2,
+          "ingredients": [
+            {
+              "name": "rice",
+              "qty": 180,
+              "unit": "g"
+            },
+            {
+              "name": "onion",
+              "qty": 1,
+              "unit": "pcs"
+            },
+            {
+              "name": "spinach",
+              "qty": 80,
+              "unit": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sat",
+      "meals": [
+        {
+          "type": "dinner",
+          "recipe_id": "v6",
+          "title": "Paneer Stir Fry",
+          "servings": 2,
+          "ingredients": [
+            {
+              "name": "paneer",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "onion",
+              "qty": 1,
+              "unit": "pcs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sun",
+      "meals": [
+        {
+          "type": "dinner",
+          "recipe_id": "v7",
+          "title": "Cheese Omelette",
+          "servings": 2,
+          "ingredients": [
+            {
+              "name": "eggs",
+              "qty": 2,
+              "unit": "pcs"
+            },
+            {
+              "name": "milk",
+              "qty": 20,
+              "unit": "ml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
